@@ -1,0 +1,25 @@
+.task-item {
+    font-size: 1.25rem;
+}
+  
+.task-item button {
+  width: 35px;
+  margin: 3px;
+}
+
+.task-item-name {
+  margin-left: 1.25rem;
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.task-item.done .task-item-name {
+  text-decoration: line-through;
+}
+
+.task-item.important .task-item-name {
+  font-weight: bold;
+  color: steelblue;
+}
+  
